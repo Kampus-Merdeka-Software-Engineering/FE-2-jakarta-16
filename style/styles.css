@@ -1,0 +1,200 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .menu a:hover {
+    color: #ff4500;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 20px;
+  }
+  /* Section Banner */
+  .banner {
+    background-image: url('banner.png'); /* Ganti dengan gambar background yang diinginkan */
+    background-size:cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .search-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .search-form input,
+  .search-form select,
+  .search-form button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search-form input[type="date"] {
+    width: 150px;
+  }
+  
+  .search-form select {
+    width: 200px;
+  }
+  
+  .search-form button {
+    background-color: #ff4500;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-form button:hover {
+    background-color: #e03000;
+  }
+  
+  /* Section Banner */
+
+  /* Popular Styles */
+  .popular-destinations {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .destination-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .destination {
+    text-align: center;
+  }
+  
+  .destination img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    border: 3px solid #fff; /* optional: add border for the images */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* optional: add shadow effect */
+  }
+  
+  .destination p {
+    margin-top: 3px;
+    font-weight: bold;
+  }
+  /* Popular Styles */
+
+  /*Benefit Styles */
+  .slogan-benefit {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .box {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .box-slogan {
+    flex: 1;
+  }
+
+  .box-slogan p {
+    font-size: 25px;
+  }
+  
+  .box-benefits {
+    flex: 1;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .benefit-item {
+    text-align: center;
+  }
+  
+  .benefit-item img {
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    object-fit: cover;
+    border: 3px solid #fff; /* optional: add border for the images */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* optional: add shadow effect */
+  }
+  
+  /*Benefit Styles */
+
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
